@@ -1,0 +1,30 @@
+web server for windows->iis
+	   for ubuntu->apache2
+	   for linux->httpd
+
+sudo apt update
+sudo apt install apache2 -y
+cd /var/www/html
+ls
+sudo rm index.html
+sudo vi index.html
+insert mode
+hello esc :wq
+ls
+
+
+.pem to .ppk
+
+ssh->auth->credentials
+
+ec2-user
+sudo yum update
+sudo yum install httpd -y
+cd /var/www/html
+ls
+sudo vi index.html
+insert mode
+hello esc :wq
+sudo systemctl start httpd
+
+
